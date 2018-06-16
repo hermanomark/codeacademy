@@ -1,0 +1,33 @@
+1. Install Jekyll by typing the following command in the terminal:
+- gem install jekyll
+
+2. A successful install will display the following: 
+-Successfully installed jekyll-3.1.3                                                                       
+Parsing documentation for jekyll-3.1.3                                                                     
+Installing ri documentation for jekyll-3.1.3                                                               
+Done installing documentation for jekyll                                                                   
+1 gem installed
+
+3. Use Jekyll's new command to generate your static website with a directory named personal-website
+- jekyll new personal-website
+
+4. Use the ls command to verify that the directory was successfully generated.
+
+5. To view your site locally, you must first navigate to your site's directory, using the cd command.
+- cd /home/user/workspace/daw/personal-website
+
+6. Use the serve command to start a local server. 
+- jekyll serve
+
+7. Navigate to http://localhost:4000 in the browser to view your site.
+
+
+Jekyll's Directory Structure
+
+1. _config.yml - This is a configuration file that contains many values that need to be edited only once. These values are used across your site, for example, your site's title, your e-mail, and more. Note that this is a .yml file, which you can learn more about here.
+
+2. _includes/ - This directory contains all the partials (code templates that keep you from repeating your code over and over) that your site uses to load common components, like the header and the footer.
+
+3. _posts/ - This directory is where blog posts are stored. New blog posts can be added and will be rendered with the site's styling, as long as the file name follows Jekyll's standard naming convention.
+
+4 ._layouts/ - This directory contains templates that are used to style certain types of posts within the site. For example, new blog posts will use the HTML layout defined in post.html.

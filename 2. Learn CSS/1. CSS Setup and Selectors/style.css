@@ -1,0 +1,50 @@
+ /* CSS can select HTML elements by tag, class, or ID. */
+ 
+ p { 
+      font-family: Arial;
+    } /* tag selector */
+
+h1 {
+  color: maroon;
+}
+
+.title { 
+  color: teal;
+} /* class selector */
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+.publish-time {
+  color: gray;
+}
+
+.cursive {
+  font-family: cursive;
+}
+
+.capitalize {
+  text-transform: capitalize;
+}
+
+h2.destination {
+  font-family: cursive;
+} /* multiple selectors can be chained for specificity */
+
+.description h5 {
+  color: teal;
+} /* nested elements */
+
+p, h5 { 
+  color: rebeccapurple !important; /* !important selector, override all selectors, should never be used */
+  font-family: Georgia;
+  } /* multiple unrelated selector can be styled together with a comma */
+
+#mdestination { 
+color: red;
+} /* sample use of id selector */
+
+/* IDs are more specific than classes, and classes are more specific than tags. 
+That means IDs will override any styles from a class, and classes will override any styles from a tag selector. */
+

@@ -1,0 +1,53 @@
+body {
+	height: 100%;
+	margin: 0;
+	text-align: center;
+	width: 100%;
+}
+
+h1 {
+	font-size: 32px;
+  font-family: Palatino, 'Palatino Linotype', serif;
+  color: rgb(46,105,163);
+}
+
+h2 {
+  font-size: 56px; /*pixel (px): Standard unit of measurement for sizing fonts and other HTML elements. */
+}
+
+
+.hero {
+	padding: 250px 0;
+	margin: 30px;
+	font-family: 'Trebuchet MS', Helvetica, sans-serif; /* font-family: sets font for a CSS selector. */
+	background-image: url("https://s3.amazonaws.com/codecademy-content/projects/make-a-website/lesson-2/bg.jpg"); /* background-image: sets a background image of your choosing for a given selector. */
+	background-size: cover;
+	color: #ffffff; /* color: sets font color for the CSS selector. */
+}
+
+
+p {
+  font-size: 2rem; /* rem: Represents the default font size for the web browser. Rems can be used to ensure that HTML elements scale in 
+						proportion to each other on various web browsers and screen sizes. On most web browsers, 1rem is equivalent to 16px, 2rem
+						is equivalent to 32px (a doubling), 3rem is equivalent to 48px (a tripling) and so on. */
+
+}
+
+.hero a {
+	color: #00FFAA;
+	font-size: 24px; /* font-size: sets font size for text. */
+	text-decoration: none;
+  font-size: 1.25em; /* em: A relative value that changes in proportion to the size of the parent element. For example, 
+						if a parent element has font-size: 20px;, child elements with font-size: 1em; would be equivalent to 20px. 
+						Child elements with font-size: 0.5em; would be equivalent to 10px (a halving) and so on. */
+}
+
+#footer {
+  font-size: 0.75rem;
+  
+}
+
+/* 
+class selectors: used to target classes of HTML elements
+id selectors: used to style an HTML element which has an id attribute.
+*/

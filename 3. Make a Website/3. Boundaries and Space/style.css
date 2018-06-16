@@ -1,0 +1,91 @@
+/* CSS Box Model: illustrates the space and boundary properties of an HTML element that can be controlled using CSS. */
+
+html, body {
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+  font-weight: 300;
+  line-height: 1.5;
+}
+
+body {
+  font-family: 'Lato', sans-serif;
+  background-image: url('https://s3.amazonaws.com/codecademy-content/projects/make-a-website/lesson-3/background.jpg');
+  background-position: center top;
+  background-size: cover;
+  margin: 0;
+}
+
+a {
+  color: #204156;
+  text-decoration: none;
+}
+
+.page-title {
+  text-align: center;
+  font-weight: 100;
+}
+
+.page-description {
+  border: 1px solid #000;
+  margin: 2px;
+  text-align: center;
+  padding: 30px;
+}
+
+.gallery {
+	margin-top: 20px;
+	display: flex; /* flex: display value that allows us to easily align multiple page elements vertically or horizontally. */
+					/*display: property that determines how the selected element will be arranged in relation to other HTML 
+					elements on the page. */
+	flex-wrap: wrap; /* We can make sure no child element moves off the page  */
+	justify-content: center;
+}
+
+.gallery-item {
+  margin: 20px; /* margin: sets the amount of space between an HTML element and the next nearest element(s). */
+}
+
+.gallery-item .thumbnail {
+  border: 5px solid #fff;
+}
+
+/* FOOTER NAVIGATION */
+
+nav {
+  background-color: #FFF;
+}
+
+nav li {
+  display: inline; /*inline: display value used to arrange HTML elements on the same line as neighboring elements.*/
+  margin: 0;
+  padding: 0 10px;
+}
+
+nav ul {
+  display: inline;
+}
+
+.contact-btn {
+  float: right; /* float: property used to float HTML elements left or right of neighboring elements. */
+}
+
+.contact-btn a {
+  cursor: pointer;
+  margin-right: 30px;
+  padding: 8px 18px; /* padding: sets the amount of space between an element's content and its border. */
+  border: 1px solid #204156; /* border: sets the outline of an HTML page element, like a picture frame that contains the element. */
+  position: relative; /*position: property used to position HTML elements in exact locations on a webpage. */
+}
+
+.contact-btn a:active {
+    top: 2px; /* You can use position: relative to button and add top 2px for a:active button to make it look like a button */
+}
+
+nav a {
+  height: 60px;
+  line-height: 60px;
+  color: #204156;
+  text-decoration: none;
+}
+
