@@ -13,6 +13,6 @@ $(document).ready(() => {
   });
 
   $loginButton.on('click', () => {
-  $loginForm.toggle();
+    $loginForm.toggle();
   });
 });
