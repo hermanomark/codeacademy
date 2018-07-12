@@ -6,13 +6,13 @@ $(document).ready(() => {
 
   $menuButton.on('click', () => {
     $navDropdown.show();
-  })
+  });
   
   $navDropdown.on('mouseleave', () => {
     $navDropdown.hide();
-  })
+  });
 
   $loginButton.on('click', () => {
   $loginForm.toggle();
-  })
-})
+  });
+});
