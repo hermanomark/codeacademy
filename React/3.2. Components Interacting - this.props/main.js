@@ -53,7 +53,7 @@ ReactDOM.render(<PropsDisplayer />, document.getElementById('app'));
 // How? By giving that component an attribute:
 
 <MyComponent foo="bar" />
-Let's say that you want to pass a component the message, "This is some top secret info.". Here's how you could do it:
+// Let's say that you want to pass a component the message, "This is some top secret info.". Here's how you could do it:
 
 <Example message="This is some top secret info." />
 // As you can see, to pass information to a component, you need a name for the information that you want to pass.
