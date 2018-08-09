@@ -17,7 +17,7 @@
 # 1. Let's see how to incorporate a database by building a Rails app for a messaging service.
 # Create a new Rails app named MessengerApp using the rails new command.
 
-# $ rails new MessgengerApp
+# $ rails new MessengerApp
 
 # 2.
 # Install the gems in Gemfile.
@@ -55,11 +55,11 @@ end
 
 # 3. Then in the terminal, run
 
-# $ rake db:migrate
+# $ rake db:migrate // take note make sure database is created, e.g. run rake db:create first
 
 # 4. Finally, run
 
-# $ rake db:seed
+# $ rake db:seed // take note make sure database is created, e.g. run rake db:create first
 
 # -----------------------------------------------------------
 
@@ -90,9 +90,6 @@ get '/messages' => 'messages#index'
 
 # 3. Then in the Messages controller (app/controllers/messages_controller.rb), add an index action:
 
-# def index 
-#   @messages = Message.all 
-# end 
 
 class MessagesController < ApplicationController
   def index
