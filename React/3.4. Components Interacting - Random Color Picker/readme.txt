@@ -1,3 +1,5 @@
+Not yet done!
+
 Random Color Picker
 In this project, we'll build a program that helps designers think of new color schemes.
 
