@@ -1,4 +1,4 @@
-Not yet done!
+Github copy: https://github.com/hermanomark/video-player
 
 Video Player
 You just learned your first programming pattern. Let's put it to use!

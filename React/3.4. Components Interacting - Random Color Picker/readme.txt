@@ -1,4 +1,4 @@
-Not yet done!
+Github copy: https://github.com/hermanomark/random-color-picker
 
 Random Color Picker
 In this project, we'll build a program that helps designers think of new color schemes.
